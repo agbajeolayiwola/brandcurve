@@ -1,0 +1,50 @@
+.cardCov{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cardInn{
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 31%;
+    padding: 10px 12px 10px 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 11px #eaf0f6;
+    transition: all 0.2s ease-in-out;
+}
+.pCard{
+    padding-bottom: 27%;
+    border-bottom: 1px solid #eaf0f6;
+}
+.card:hover{
+    box-shadow: 0 10px 50px -5px rgb(51 71 91 / 12%);
+    transform: scale(1.014);
+    transition: all 0.2s ease-in-out;
+}
+.ul{
+    margin:0px;
+    padding:0px;
+    margin-bottom: 5%;
+}
+.features{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.features > li{
+  list-style:none;
+  margin-left: 5px;
+}
+.features > p{
+    color: #ffa500;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+}

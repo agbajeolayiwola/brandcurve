@@ -1,0 +1,11 @@
+.homeCover{
+    
+    justify-content: center;
+}
+.inner{
+    width: 80%;
+    max-width: 1440px;
+}
+.top{
+    display: Flex;
+}

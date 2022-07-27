@@ -1,0 +1,29 @@
+.bkSt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sectionII{
+    width: 50%;
+}
+.sectionI{
+    width: 50%;
+    padding-left:5%;
+}
+.cover{
+    background-color: #293951;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.bkBtn{
+    width: 45%;
+}
+.strtBtn{
+    background-color: white;
+    color: #ffa500;
+    width: 45%;
+}

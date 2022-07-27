@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  background-color: #f5f8fa;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root{
+  --global-button-padding: 4px 27px 4px 27px;
+  --global-button-background:#ffa500;
+  --global-button-color:#fff;
+}
+button{
+  padding:var(--global-button-padding);
+  background-color:var(--global-button-background) ;
+  color: var(--global-button-color);
+  border: none;
+  border-radius: 10px;
+  transition: padding 0.5s ease-in-out;
+}
+button:hover{
+  padding: 4px 47px 4px 27px;
+  transition: padding 0.5s ease-in-out;
+}
